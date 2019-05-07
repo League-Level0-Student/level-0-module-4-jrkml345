@@ -22,6 +22,9 @@ public class SleepyHead {
 
 		int input = JOptionPane.showConfirmDialog(null, "Is it a weekday?", "Sleepy Head", JOptionPane.YES_NO_OPTION);
 		System.out.println(input);
+		
+			
+		
 
 		/*
 		 * Print “sleep in�? if it is a vacation or a weekend. If it’s a weekday,

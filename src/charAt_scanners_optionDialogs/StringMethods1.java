@@ -8,7 +8,12 @@ public class StringMethods1 {
 	public static void main(String[] args) {
 		
 		// 1. Create a String variable and initialize it to whatever you want
-
+String liquid = "soap";
+System.out.println();liquid.charAt(0);
+System.out.println(liquid.length());
+for(int i = 0; i<liquid.length();i++) {
+	System.out.println(liquid.charAt(i));
+}
 		// 2. Print the 3rd char of your String to the console.
 		//    HINT: .charAt
 		
@@ -24,7 +29,11 @@ public class StringMethods1 {
 		//    Print the char's position to the console.
 		//    EXAMPLE: if your string is "abc" and you are searching 
 		//             for char 'b', then print "b is at index 1"
-		
+		for(int  i=0; i < liquid.length(); i++) {
+			if(liquid.charAt(i)=='a') {
+				System.out.println("a is at index "+ i);
+			}
+		}
 	}
 }
 
